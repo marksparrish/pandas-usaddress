@@ -66,7 +66,7 @@ def usaddress_field_creation(x,i):
 def usaddress_address_type(x):
     try:
         return x[1][0]
-    else:
+    except:
         None
         
 def trim(x):
